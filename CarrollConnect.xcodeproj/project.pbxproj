@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2086D075245B420000177F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D074245B420000177F7A /* AppDelegate.swift */; };
+		2086D077245B420000177F7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D076245B420000177F7A /* SceneDelegate.swift */; };
+		2086D079245B420000177F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D078245B420000177F7A /* ViewController.swift */; };
+		2086D07C245B420000177F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2086D07A245B420000177F7A /* Main.storyboard */; };
+		2086D07E245B420300177F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2086D07D245B420300177F7A /* Assets.xcassets */; };
+		2086D081245B420300177F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2086D07F245B420300177F7A /* LaunchScreen.storyboard */; };
+		2086D08C245B420300177F7A /* CarrollConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D08B245B420300177F7A /* CarrollConnectTests.swift */; };
+		2086D097245B420400177F7A /* CarrollConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D096245B420400177F7A /* CarrollConnectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2086D088245B420300177F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2086D069245B420000177F7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2086D070245B420000177F7A;
+			remoteInfo = CarrollConnect;
+		};
+		2086D093245B420400177F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2086D069245B420000177F7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2086D070245B420000177F7A;
+			remoteInfo = CarrollConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2086D071245B420000177F7A /* CarrollConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrollConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2086D074245B420000177F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2086D076245B420000177F7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2086D078245B420000177F7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2086D07B245B420000177F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2086D07D245B420300177F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2086D080245B420300177F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2086D082245B420300177F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2086D087245B420300177F7A /* CarrollConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrollConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2086D08B245B420300177F7A /* CarrollConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrollConnectTests.swift; sourceTree = "<group>"; };
+		2086D08D245B420300177F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2086D092245B420400177F7A /* CarrollConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrollConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2086D096245B420400177F7A /* CarrollConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrollConnectUITests.swift; sourceTree = "<group>"; };
+		2086D098245B420400177F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2086D06E245B420000177F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2086D084245B420300177F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2086D08F245B420400177F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2086D068245B420000177F7A = {
+			isa = PBXGroup;
+			children = (
+				2086D073245B420000177F7A /* CarrollConnect */,
+				2086D08A245B420300177F7A /* CarrollConnectTests */,
+				2086D095245B420400177F7A /* CarrollConnectUITests */,
+				2086D072245B420000177F7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2086D072245B420000177F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2086D071245B420000177F7A /* CarrollConnect.app */,
+				2086D087245B420300177F7A /* CarrollConnectTests.xctest */,
+				2086D092245B420400177F7A /* CarrollConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2086D073245B420000177F7A /* CarrollConnect */ = {
+			isa = PBXGroup;
+			children = (
+				2086D074245B420000177F7A /* AppDelegate.swift */,
+				2086D076245B420000177F7A /* SceneDelegate.swift */,
+				2086D078245B420000177F7A /* ViewController.swift */,
+				2086D07A245B420000177F7A /* Main.storyboard */,
+				2086D07D245B420300177F7A /* Assets.xcassets */,
+				2086D07F245B420300177F7A /* LaunchScreen.storyboard */,
+				2086D082245B420300177F7A /* Info.plist */,
+			);
+			path = CarrollConnect;
+			sourceTree = "<group>";
+		};
+		2086D08A245B420300177F7A /* CarrollConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				2086D08B245B420300177F7A /* CarrollConnectTests.swift */,
+				2086D08D245B420300177F7A /* Info.plist */,
+			);
+			path = CarrollConnectTests;
+			sourceTree = "<group>";
+		};
+		2086D095245B420400177F7A /* CarrollConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2086D096245B420400177F7A /* CarrollConnectUITests.swift */,
+				2086D098245B420400177F7A /* Info.plist */,
+			);
+			path = CarrollConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2086D070245B420000177F7A /* CarrollConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2086D09B245B420400177F7A /* Build configuration list for PBXNativeTarget "CarrollConnect" */;
+			buildPhases = (
+				2086D06D245B420000177F7A /* Sources */,
+				2086D06E245B420000177F7A /* Frameworks */,
+				2086D06F245B420000177F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarrollConnect;
+			productName = CarrollConnect;
+			productReference = 2086D071245B420000177F7A /* CarrollConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2086D086245B420300177F7A /* CarrollConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2086D09E245B420400177F7A /* Build configuration list for PBXNativeTarget "CarrollConnectTests" */;
+			buildPhases = (
+				2086D083245B420300177F7A /* Sources */,
+				2086D084245B420300177F7A /* Frameworks */,
+				2086D085245B420300177F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2086D089245B420300177F7A /* PBXTargetDependency */,
+			);
+			name = CarrollConnectTests;
+			productName = CarrollConnectTests;
+			productReference = 2086D087245B420300177F7A /* CarrollConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2086D091245B420400177F7A /* CarrollConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2086D0A1245B420400177F7A /* Build configuration list for PBXNativeTarget "CarrollConnectUITests" */;
+			buildPhases = (
+				2086D08E245B420400177F7A /* Sources */,
+				2086D08F245B420400177F7A /* Frameworks */,
+				2086D090245B420400177F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2086D094245B420400177F7A /* PBXTargetDependency */,
+			);
+			name = CarrollConnectUITests;
+			productName = CarrollConnectUITests;
+			productReference = 2086D092245B420400177F7A /* CarrollConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2086D069245B420000177F7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = 1;
+				TargetAttributes = {
+					2086D070245B420000177F7A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					2086D086245B420300177F7A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2086D070245B420000177F7A;
+					};
+					2086D091245B420400177F7A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2086D070245B420000177F7A;
+					};
+				};
+			};
+			buildConfigurationList = 2086D06C245B420000177F7A /* Build configuration list for PBXProject "CarrollConnect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2086D068245B420000177F7A;
+			productRefGroup = 2086D072245B420000177F7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2086D070245B420000177F7A /* CarrollConnect */,
+				2086D086245B420300177F7A /* CarrollConnectTests */,
+				2086D091245B420400177F7A /* CarrollConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2086D06F245B420000177F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2086D081245B420300177F7A /* LaunchScreen.storyboard in Resources */,
+				2086D07E245B420300177F7A /* Assets.xcassets in Resources */,
+				2086D07C245B420000177F7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2086D085245B420300177F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2086D090245B420400177F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2086D06D245B420000177F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2086D079245B420000177F7A /* ViewController.swift in Sources */,
+				2086D075245B420000177F7A /* AppDelegate.swift in Sources */,
+				2086D077245B420000177F7A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2086D083245B420300177F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2086D08C245B420300177F7A /* CarrollConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2086D08E245B420400177F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2086D097245B420400177F7A /* CarrollConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2086D089245B420300177F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2086D070245B420000177F7A /* CarrollConnect */;
+			targetProxy = 2086D088245B420300177F7A /* PBXContainerItemProxy */;
+		};
+		2086D094245B420400177F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2086D070245B420000177F7A /* CarrollConnect */;
+			targetProxy = 2086D093245B420400177F7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2086D07A245B420000177F7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2086D07B245B420000177F7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2086D07F245B420300177F7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2086D080245B420300177F7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2086D099245B420400177F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2086D09A245B420400177F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2086D09C245B420400177F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarrollConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jerry.CarrollConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2086D09D245B420400177F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarrollConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jerry.CarrollConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2086D09F245B420400177F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarrollConnectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jerry.CarrollConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrollConnect.app/CarrollConnect";
+			};
+			name = Debug;
+		};
+		2086D0A0245B420400177F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarrollConnectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jerry.CarrollConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrollConnect.app/CarrollConnect";
+			};
+			name = Release;
+		};
+		2086D0A2245B420400177F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarrollConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jerry.CarrollConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarrollConnect;
+			};
+			name = Debug;
+		};
+		2086D0A3245B420400177F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarrollConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jerry.CarrollConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarrollConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2086D06C245B420000177F7A /* Build configuration list for PBXProject "CarrollConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2086D099245B420400177F7A /* Debug */,
+				2086D09A245B420400177F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2086D09B245B420400177F7A /* Build configuration list for PBXNativeTarget "CarrollConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2086D09C245B420400177F7A /* Debug */,
+				2086D09D245B420400177F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2086D09E245B420400177F7A /* Build configuration list for PBXNativeTarget "CarrollConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2086D09F245B420400177F7A /* Debug */,
+				2086D0A0245B420400177F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2086D0A1245B420400177F7A /* Build configuration list for PBXNativeTarget "CarrollConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2086D0A2245B420400177F7A /* Debug */,
+				2086D0A3245B420400177F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2086D069245B420000177F7A /* Project object */;
+}
