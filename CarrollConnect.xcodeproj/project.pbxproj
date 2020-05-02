@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202B7FF6245CBCE1005082B1 /* school.plist in Resources */ = {isa = PBXBuildFile; fileRef = 202B7FF5245CBCE1005082B1 /* school.plist */; };
+		202B7FFC245CD4F0005082B1 /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 202B7FFB245CD4F0005082B1 /* overlay.png */; };
 		2086D075245B420000177F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D074245B420000177F7A /* AppDelegate.swift */; };
 		2086D077245B420000177F7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D076245B420000177F7A /* SceneDelegate.swift */; };
-		2086D079245B420000177F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D078245B420000177F7A /* ViewController.swift */; };
+		2086D079245B420000177F7A /* (CONTROLLER) main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D078245B420000177F7A /* (CONTROLLER) main.swift */; };
 		2086D07C245B420000177F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2086D07A245B420000177F7A /* Main.storyboard */; };
 		2086D07E245B420300177F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2086D07D245B420300177F7A /* Assets.xcassets */; };
 		2086D081245B420300177F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2086D07F245B420300177F7A /* LaunchScreen.storyboard */; };
 		2086D08C245B420300177F7A /* CarrollConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D08B245B420300177F7A /* CarrollConnectTests.swift */; };
 		2086D097245B420400177F7A /* CarrollConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D096245B420400177F7A /* CarrollConnectUITests.swift */; };
+		2086D0A5245B448500177F7A /* (VIEW) map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D0A4245B448500177F7A /* (VIEW) map.swift */; };
+		2086D0A7245B4A7A00177F7A /* (MODEL) mapoverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D0A6245B4A7A00177F7A /* (MODEL) mapoverlay.swift */; };
+		20E1079A245BD6040098F12B /* (MODEL) Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E10799245BD6040098F12B /* (MODEL) Room.swift */; };
+		20E1079C245BD7D80098F12B /* (VIEW) overlayview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E1079B245BD7D80098F12B /* (VIEW) overlayview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		202B7FF5245CBCE1005082B1 /* school.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = school.plist; sourceTree = "<group>"; };
+		202B7FFB245CD4F0005082B1 /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlay.png; path = ../../../../Downloads/overlay.png; sourceTree = "<group>"; };
 		2086D071245B420000177F7A /* CarrollConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrollConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2086D074245B420000177F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2086D076245B420000177F7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2086D078245B420000177F7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2086D078245B420000177F7A /* (CONTROLLER) main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(CONTROLLER) main.swift"; sourceTree = "<group>"; };
 		2086D07B245B420000177F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2086D07D245B420300177F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2086D080245B420300177F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		2086D092245B420400177F7A /* CarrollConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrollConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2086D096245B420400177F7A /* CarrollConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrollConnectUITests.swift; sourceTree = "<group>"; };
 		2086D098245B420400177F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2086D0A4245B448500177F7A /* (VIEW) map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(VIEW) map.swift"; sourceTree = "<group>"; };
+		2086D0A6245B4A7A00177F7A /* (MODEL) mapoverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(MODEL) mapoverlay.swift"; sourceTree = "<group>"; };
+		20E10799245BD6040098F12B /* (MODEL) Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(MODEL) Room.swift"; sourceTree = "<group>"; };
+		20E1079B245BD7D80098F12B /* (VIEW) overlayview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(VIEW) overlayview.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +113,15 @@
 			children = (
 				2086D074245B420000177F7A /* AppDelegate.swift */,
 				2086D076245B420000177F7A /* SceneDelegate.swift */,
-				2086D078245B420000177F7A /* ViewController.swift */,
+				2086D078245B420000177F7A /* (CONTROLLER) main.swift */,
+				2086D0A4245B448500177F7A /* (VIEW) map.swift */,
+				20E1079B245BD7D80098F12B /* (VIEW) overlayview.swift */,
+				2086D0A6245B4A7A00177F7A /* (MODEL) mapoverlay.swift */,
+				20E10799245BD6040098F12B /* (MODEL) Room.swift */,
+				202B7FF5245CBCE1005082B1 /* school.plist */,
 				2086D07A245B420000177F7A /* Main.storyboard */,
 				2086D07D245B420300177F7A /* Assets.xcassets */,
+				202B7FFB245CD4F0005082B1 /* overlay.png */,
 				2086D07F245B420300177F7A /* LaunchScreen.storyboard */,
 				2086D082245B420300177F7A /* Info.plist */,
 			);
@@ -233,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2086D081245B420300177F7A /* LaunchScreen.storyboard in Resources */,
+				202B7FFC245CD4F0005082B1 /* overlay.png in Resources */,
 				2086D07E245B420300177F7A /* Assets.xcassets in Resources */,
+				202B7FF6245CBCE1005082B1 /* school.plist in Resources */,
 				2086D07C245B420000177F7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2086D079245B420000177F7A /* ViewController.swift in Sources */,
+				20E1079A245BD6040098F12B /* (MODEL) Room.swift in Sources */,
+				2086D079245B420000177F7A /* (CONTROLLER) main.swift in Sources */,
+				2086D0A5245B448500177F7A /* (VIEW) map.swift in Sources */,
+				20E1079C245BD7D80098F12B /* (VIEW) overlayview.swift in Sources */,
 				2086D075245B420000177F7A /* AppDelegate.swift in Sources */,
+				2086D0A7245B4A7A00177F7A /* (MODEL) mapoverlay.swift in Sources */,
 				2086D077245B420000177F7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
