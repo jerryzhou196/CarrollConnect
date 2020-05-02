@@ -11,6 +11,11 @@ import Foundation
 import UIKit
 import MapKit
 
+
+
+//The Room model init extracts data from the PList file and transfers it to properties
+//The Room model includes the getter, overlayBoundingMapRect which returns a MKMapRect with it's coordiante properties
+
 class Room {
       var name: String?
       

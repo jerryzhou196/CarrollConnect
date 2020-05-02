@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		202B7FF6245CBCE1005082B1 /* school.plist in Resources */ = {isa = PBXBuildFile; fileRef = 202B7FF5245CBCE1005082B1 /* school.plist */; };
-		202B7FFC245CD4F0005082B1 /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 202B7FFB245CD4F0005082B1 /* overlay.png */; };
 		2086D075245B420000177F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D074245B420000177F7A /* AppDelegate.swift */; };
 		2086D077245B420000177F7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D076245B420000177F7A /* SceneDelegate.swift */; };
 		2086D079245B420000177F7A /* (CONTROLLER) main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086D078245B420000177F7A /* (CONTROLLER) main.swift */; };
@@ -42,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		202B7FF5245CBCE1005082B1 /* school.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = school.plist; sourceTree = "<group>"; };
-		202B7FFB245CD4F0005082B1 /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlay.png; path = ../../../../Downloads/overlay.png; sourceTree = "<group>"; };
 		2086D071245B420000177F7A /* CarrollConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrollConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2086D074245B420000177F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2086D076245B420000177F7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 				202B7FF5245CBCE1005082B1 /* school.plist */,
 				2086D07A245B420000177F7A /* Main.storyboard */,
 				2086D07D245B420300177F7A /* Assets.xcassets */,
-				202B7FFB245CD4F0005082B1 /* overlay.png */,
 				2086D07F245B420300177F7A /* LaunchScreen.storyboard */,
 				2086D082245B420300177F7A /* Info.plist */,
 			);
@@ -251,7 +248,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2086D081245B420300177F7A /* LaunchScreen.storyboard in Resources */,
-				202B7FFC245CD4F0005082B1 /* overlay.png in Resources */,
 				2086D07E245B420300177F7A /* Assets.xcassets in Resources */,
 				202B7FF6245CBCE1005082B1 /* school.plist in Resources */,
 				2086D07C245B420000177F7A /* Main.storyboard in Resources */,
