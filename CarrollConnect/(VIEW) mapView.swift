@@ -14,8 +14,12 @@ let items = ["Standard", "Satellite", "Hybrid", "SatelliteFlyover", "MutedStanda
 class mv: MKMapView{
     
     var room: Room?
+    
     override init(frame: CGRect){
         super.init(frame: frame)
+        self.translatesAutoresizingMaskIntoConstraints = false
+        
+        //LOCATION SETUPT
         let intialLocation = CLLocation(latitude: 51.012915,longitude: -114.120575)
         self.centerToLocation(intialLocation)
         let region = MKCoordinateRegion(
@@ -27,14 +31,14 @@ class mv: MKMapView{
           animated: true)
         let zoomRange = MKMapView.CameraZoomRange(maxCenterCoordinateDistance: 450)
         self.setCameraZoomRange(zoomRange, animated: true)
-        self.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func passInRoom(room: Room) {
         self.room = room
        }
+    
     func addOverlay(){
-        let overlay = mapOverLay(room: room!)
+        let overlay = mapOverLay(room: room!) //Creates the MKOverlayObject with the room model
         self.addOverlay(overlay)
   
     }

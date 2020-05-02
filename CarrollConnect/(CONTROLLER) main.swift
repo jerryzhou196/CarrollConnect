@@ -48,11 +48,13 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: MKMapViewDelegate{
+    
+    //Map checks for overlay, return that type of overlay and expects an overlayrenderer
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         if overlay is mapOverLay{
             return RoomMapOverlayView(overlay: overlay, overlayImage: #imageLiteral(resourceName: "overlay_park") )
-            
         }
+    //If not of type mapOverlay, 
         return MKOverlayRenderer()
 }
 }
